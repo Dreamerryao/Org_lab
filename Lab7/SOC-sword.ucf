@@ -1,21 +1,29 @@
-NET "clk_100mhz"					LOC = AC18      | IOSTANDARD = LVCMOS18 ;
+#Created by Constraints Editor (xc7k325t-ffg676-2l) - 2017/09/03
+
+##system clock
+NET "clk200N"			LOC= AD18  | IOSTANDARD = LVDS ;
+NET "clk200P"			LOC= AC18  | IOSTANDARD = LVDS ;
+NET "clk200P"			TNM_NET = TM_CLK;
+TIMESPEC TS_CLKIN = PERIOD "TM_CLK"   5ns HIGH 50%;
+
 NET "RSTN"							LOC = W13       | IOSTANDARD = LVCMOS18 ;
-NET "clk_100mhz"		 			TNM_NET = TM_CLK ;
-TIMESPEC TS_CLK_100M 	 	= PERIOD "TM_CLK"       10 ns HIGH 50%;
 
-NET "led_clk"				LOC = N26       | IOSTANDARD = LVCMOS33 ;
-NET "led_clrn"				LOC = N24       | IOSTANDARD = LVCMOS33 ;
-NET "led_sout"				LOC = M26       | IOSTANDARD = LVCMOS33 ;
-NET "LED_PEN"				LOC = P18       | IOSTANDARD = LVCMOS33 ;     
+NET "seg_clk"			LOC = M24   | IOSTANDARD = LVCMOS33 ;
+NET "seg_pen"			LOC = R18   | IOSTANDARD = LVCMOS33 ;
+NET "seg_do"			LOC = L24   | IOSTANDARD = LVCMOS33 ;
 
-NET "seg_clk"				LOC = M24       | IOSTANDARD = LVCMOS33 ;
-NET "seg_clrn"				LOC = M20       | IOSTANDARD = LVCMOS33 ;
-NET "seg_sout"				LOC = L24       | IOSTANDARD = LVCMOS33 ;
-NET "SEG_PEN"				LOC = R18       | IOSTANDARD = LVCMOS33 ;    
+##LED
+NET "led_clk"			LOC = N26   | IOSTANDARD = LVCMOS33 ;
+NET "led_pen"			LOC = N24   | IOSTANDARD = LVCMOS33 ;
+NET "led_do"			LOC = M26   | IOSTANDARD = LVCMOS33 ; 
 
 NET "RDY"			LOC = U21       | IOSTANDARD = LVCMOS33 ;
 NET "readn"			LOC = U22       | IOSTANDARD = LVCMOS33 ;
 NET "CR"				LOC = V22       | IOSTANDARD = LVCMOS33 ;
+
+#NET "tri_led0_b_n"		LOC = V22		| IOSTANDARD = LVCMOS33 ;
+#NET "tri_led0_g_n"		LOC = U22       | IOSTANDARD = LVCMOS33 ;
+#NET "tri_led0_r_n"		LOC = U21       | IOSTANDARD = LVCMOS33 ;
 #NET "tri_led1_r_n"			LOC = U24       | IOSTANDARD = LVCMOS18 ;
 #NET "tri_led1_g_n"			LOC = U25       | IOSTANDARD = LVCMOS18 ;
 #NET "tri_led1_b_n"			LOC = V23       | IOSTANDARD = LVCMOS18 ;

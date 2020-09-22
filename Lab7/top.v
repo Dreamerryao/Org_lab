@@ -20,7 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 module top(
 		input [3:0] BTN_y,
-		input clk_100mhz,
+		input clk200P,
+		input clk200N,
 		input RSTN,
 		input [15:0] SW,
 		output [4:0] BTN_x,
@@ -28,16 +29,14 @@ module top(
 		output CR,
 		output [7:0] LED,
 		output led_clk,
-		output led_clrn,
-		output LED_PEN,
-		output led_sout,
+		output led_pen,
+		output led_do,
 		output RDY,
 		output readn,
 		output [7:0] SEGMENT,
 		output seg_clk,
-		output seg_clrn,
-		output SEG_PEN,
-		output seg_sout
+		output seg_do,
+		output seg_pen
 		);
 	 
    wire [31:0] Ai,Bi;
@@ -53,7 +52,13 @@ module top(
 	wire clka;
    wire  wea,WR,counter_we,INT,counter1_out,counter2_out;
    wire [1:0] counter_ch;
-
+	wire clk_100mhz;
+	
+	clk_diff  Q1(
+	.clk200P(clk200P),
+	.clk200N(clk200N),
+	.clk200MHz(clk_100mhz)
+	);
    VCC  v_11 (.P(V5));
    GND  g_12 (.G(N0));
    assign IO_clk = ~Clk_CPU;
@@ -172,9 +177,9 @@ module top(
                     .Start(Div[20]), 
                     .Text(SW_OK[0]), 
                     .segclk(seg_clk), 
-                    .segclrn(seg_clrn), 
-                    .SEGEN(SEG_PEN), 
-                    .segsout(seg_sout));
+                    .segclrn(), 
+                    .SEGEN(seg_pen), 
+                    .segsout(seg_do));
    GPIO  U7 (.clk(IO_clk), 
                  .EN(GPIOF0), 
                  .P_Data(CPU2IO), 
@@ -183,9 +188,9 @@ module top(
                  .counter_set(counter_ch), 
                  .GPIOf0(), 
                  .ledclk(led_clk), 
-                 .ledclrn(led_clrn), 
-                 .LEDEN(LED_PEN), 
-                 .ledsout(led_sout), 
+                 .ledclrn(), 
+                 .LEDEN(led_pen), 
+                 .ledsout(led_do), 
                  .LED_out(LED_out));
    PIO  U71 (.clk(IO_clk), 
                 .EN(GPIOF0), 

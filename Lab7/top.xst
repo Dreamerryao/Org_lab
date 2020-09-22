@@ -4,7 +4,7 @@ run
 -ifn top.prj
 -ofn top
 -ofmt NGC
--p xc7k160t-2L-ffg676
+-p xc7k325t-2L-ffg676
 -top top
 -opt_mode Speed
 -opt_level 1

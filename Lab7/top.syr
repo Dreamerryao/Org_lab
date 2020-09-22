@@ -46,7 +46,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "top"
 Output Format                      : NGC
-Target Device                      : xc7k160t-2L-ffg676
+Target Device                      : xc7k325t-2L-ffg676
 
 ---- Source Options
 Top Module Name                    : top
@@ -108,51 +108,53 @@ Cores Search Directories           : {"NGC" "ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\Org_my\Lab7\Code\Regs.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\Regs.v" into library work
 Parsing module <Regs>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\REG32.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\REG32.v" into library work
 Parsing module <REG32>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\MUX4T1_5.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\MUX4T1_5.v" into library work
 Parsing module <MUX4T1_5>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\MUX4T1_32.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\MUX4T1_32.v" into library work
 Parsing module <MUX4T1_32>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\MUX2T1_32.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\MUX2T1_32.v" into library work
 Parsing module <MUX2T1_32>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\Ext_32.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\Ext_32.v" into library work
 Parsing module <Ext_32>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\alu.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\alu.v" into library work
 Parsing module <alu>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\datapath.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\datapath.v" into library work
 Parsing module <datapath>.
-Analyzing Verilog file "D:\Org_my\Lab7\Code\controller.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\controller.v" into library work
 Parsing module <controller>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\SEnter_2_32_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\SEnter_2_32_IO.v" into library work
 Parsing module <SEnter_2_32>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\Seg7_Dev_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\Seg7_Dev_IO.v" into library work
 Parsing module <Seg7_Dev>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\SCPU.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\SCPU.v" into library work
 Parsing module <SCPU>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\SAnti_jitter_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\SAnti_jitter_IO.v" into library work
 Parsing module <SAnti_jitter>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\PIO_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\PIO_IO.v" into library work
 Parsing module <PIO>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\Multi_8CH32_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\Multi_8CH32_IO.v" into library work
 Parsing module <Multi_8CH32>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\MIO_BUS_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\MIO_BUS_IO.v" into library work
 Parsing module <MIO_BUS>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\GPIO_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\GPIO_IO.v" into library work
 Parsing module <GPIO>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\Display_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\Display_IO.v" into library work
 Parsing module <Display>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\Counter_3_IO.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\Counter_3_IO.v" into library work
 Parsing module <Counter>.
-Analyzing Verilog file "D:\Org_my\Lab7\NGC\clk_div.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\NGC\clk_div.v" into library work
 Parsing module <clk_div>.
-Analyzing Verilog file "D:\Org_my\Lab7\ipcore_dir\ROM_D.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\ipcore_dir\ROM_D.v" into library work
 Parsing module <ROM_D>.
-Analyzing Verilog file "D:\Org_my\Lab7\ipcore_dir\RAM_B.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\ipcore_dir\RAM_B.v" into library work
 Parsing module <RAM_B>.
-Analyzing Verilog file "D:\Org_my\Lab7\top.v" into library work
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\Code\clk_diff.v" into library work
+Parsing module <clk_diff>.
+Analyzing Verilog file "D:\Org_my\Org_lab\Lab7\top.v" into library work
 Parsing module <top>.
 
 =========================================================================
@@ -161,34 +163,38 @@ Parsing module <top>.
 
 Elaborating module <top>.
 
+Elaborating module <clk_diff>.
+
+Elaborating module <IBUFGDS(DIFF_TERM="FALSE",IBUF_LOW_PWR="TRUE",IOSTANDARD="DEFAULT")>.
+
 Elaborating module <VCC>.
-WARNING:HDLCompiler:1127 - "D:\Org_my\Lab7\top.v" Line 57: Assignment to V5 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Org_my\Org_lab\Lab7\top.v" Line 62: Assignment to V5 ignored, since the identifier is never used
 
 Elaborating module <GND>.
 
 Elaborating module <SEnter_2_32>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
-WARNING:HDLCompiler:1127 - "D:\Org_my\Lab7\top.v" Line 66: Assignment to Ai ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\Org_my\Lab7\top.v" Line 67: Assignment to Bi ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\Org_my\Lab7\top.v" Line 68: Assignment to blink ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
+WARNING:HDLCompiler:1127 - "D:\Org_my\Org_lab\Lab7\top.v" Line 71: Assignment to Ai ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Org_my\Org_lab\Lab7\top.v" Line 72: Assignment to Bi ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Org_my\Org_lab\Lab7\top.v" Line 73: Assignment to blink ignored, since the identifier is never used
 
 Elaborating module <ROM_D>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\ipcore_dir\ROM_D.v" Line 39: Empty module <ROM_D> remains a black box.
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\ipcore_dir\ROM_D.v" Line 39: Empty module <ROM_D> remains a black box.
 
 Elaborating module <Multi_8CH32>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\Multi_8CH32_IO.v" Line 21: Empty module <Multi_8CH32> remains a black box.
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\Multi_8CH32_IO.v" Line 21: Empty module <Multi_8CH32> remains a black box.
 
 Elaborating module <clk_div>.
 
 Elaborating module <SAnti_jitter>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
-WARNING:HDLCompiler:1127 - "D:\Org_my\Lab7\top.v" Line 104: Assignment to Pulse ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
+WARNING:HDLCompiler:1127 - "D:\Org_my\Org_lab\Lab7\top.v" Line 109: Assignment to Pulse ignored, since the identifier is never used
 
 Elaborating module <Seg7_Dev>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\Seg7_Dev_IO.v" Line 21: Empty module <Seg7_Dev> remains a black box.
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\Seg7_Dev_IO.v" Line 21: Empty module <Seg7_Dev> remains a black box.
 
 Elaborating module <RAM_B>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
 
 Elaborating module <SCPU>.
 
@@ -211,46 +217,54 @@ Elaborating module <MUX4T1_5>.
 Elaborating module <controller>.
 
 Elaborating module <MIO_BUS>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\MIO_BUS_IO.v" Line 21: Empty module <MIO_BUS> remains a black box.
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\MIO_BUS_IO.v" Line 21: Empty module <MIO_BUS> remains a black box.
 
 Elaborating module <Counter>.
-WARNING:HDLCompiler:1127 - "D:\Org_my\Lab7\NGC\Counter_3_IO.v" Line 43: Assignment to M2 ignored, since the identifier is never used
-WARNING:HDLCompiler:634 - "D:\Org_my\Lab7\NGC\Counter_3_IO.v" Line 36: Net <counter1[32]> does not have a driver.
+WARNING:HDLCompiler:1127 - "D:\Org_my\Org_lab\Lab7\NGC\Counter_3_IO.v" Line 43: Assignment to M2 ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "D:\Org_my\Org_lab\Lab7\NGC\Counter_3_IO.v" Line 36: Net <counter1[32]> does not have a driver.
 
 Elaborating module <Display>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\Display_IO.v" Line 21: Empty module <Display> remains a black box.
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\Display_IO.v" Line 21: Empty module <Display> remains a black box.
 
 Elaborating module <GPIO>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\GPIO_IO.v" Line 21: Empty module <GPIO> remains a black box.
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\GPIO_IO.v" Line 21: Empty module <GPIO> remains a black box.
 
 Elaborating module <PIO>.
-WARNING:HDLCompiler:1499 - "D:\Org_my\Lab7\NGC\PIO_IO.v" Line 21: Empty module <PIO> remains a black box.
-WARNING:HDLCompiler:552 - "D:\Org_my\Lab7\top.v" Line 121: Input port MIO_ready is not connected on this instance
+WARNING:HDLCompiler:1499 - "D:\Org_my\Org_lab\Lab7\NGC\PIO_IO.v" Line 21: Empty module <PIO> remains a black box.
+WARNING:HDLCompiler:552 - "D:\Org_my\Org_lab\Lab7\top.v" Line 126: Input port MIO_ready is not connected on this instance
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <top>.
-    Related source file is "D:\Org_my\Lab7\top.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\top.v".
 WARNING:Xst:2898 - Port 'MIO_ready', unconnected in block instance 'U1', is tied to GND.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 61: Output port <Ai> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 61: Output port <Bi> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 61: Output port <blink> of the instance <M4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 94: Output port <pulse_out> of the instance <U9> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 121: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 121: Output port <ALE> of the instance <U1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 178: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 190: Output port <counter_set> of the instance <U71> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Org_my\Lab7\top.v" line 190: Output port <GPIOf0> of the instance <U71> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 66: Output port <Ai> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 66: Output port <Bi> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 66: Output port <blink> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 99: Output port <pulse_out> of the instance <U9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 126: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 126: Output port <ALE> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 171: Output port <segclrn> of the instance <U6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 183: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 183: Output port <ledclrn> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 195: Output port <counter_set> of the instance <U71> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\top.v" line 195: Output port <GPIOf0> of the instance <U71> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <top> synthesized.
 
+Synthesizing Unit <clk_diff>.
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\clk_diff.v".
+    Summary:
+	no macro.
+Unit <clk_diff> synthesized.
+
 Synthesizing Unit <clk_div>.
-    Related source file is "D:\Org_my\Lab7\NGC\clk_div.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\NGC\clk_div.v".
     Found 32-bit register for signal <clkdiv>.
-    Found 32-bit adder for signal <clkdiv[31]_GND_7_o_add_0_OUT> created at line 32.
+    Found 32-bit adder for signal <clkdiv[31]_GND_9_o_add_0_OUT> created at line 32.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  32 D-type flip-flop(s).
@@ -258,15 +272,15 @@ Synthesizing Unit <clk_div>.
 Unit <clk_div> synthesized.
 
 Synthesizing Unit <SCPU>.
-    Related source file is "D:\Org_my\Lab7\NGC\SCPU.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\NGC\SCPU.v".
 WARNING:Xst:647 - Input <INT> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
 Unit <SCPU> synthesized.
 
 Synthesizing Unit <datapath>.
-    Related source file is "D:\Org_my\Lab7\Code\datapath.v".
-INFO:Xst:3210 - "D:\Org_my\Lab7\Code\datapath.v" line 61: Output port <overflow> of the instance <ALU> is unconnected or connected to loadless signal.
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\datapath.v".
+INFO:Xst:3210 - "D:\Org_my\Org_lab\Lab7\Code\datapath.v" line 61: Output port <overflow> of the instance <ALU> is unconnected or connected to loadless signal.
     Found 32-bit adder for signal <pc_4> created at line 58.
     Found 32-bit adder for signal <PC_OFFSET> created at line 59.
     Summary:
@@ -274,14 +288,14 @@ INFO:Xst:3210 - "D:\Org_my\Lab7\Code\datapath.v" line 61: Output port <overflow>
 Unit <datapath> synthesized.
 
 Synthesizing Unit <REG32>.
-    Related source file is "D:\Org_my\Lab7\Code\REG32.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\REG32.v".
     Found 32-bit register for signal <Q>.
     Summary:
 	inferred  32 D-type flip-flop(s).
 Unit <REG32> synthesized.
 
 Synthesizing Unit <alu>.
-    Related source file is "D:\Org_my\Lab7\Code\alu.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\alu.v".
         one = 32'b00000000000000000000000000000001
         zero_0 = 32'b00000000000000000000000000000000
     Found 32-bit subtractor for signal <res_sub> created at line 32.
@@ -297,7 +311,7 @@ Synthesizing Unit <alu>.
 Unit <alu> synthesized.
 
 Synthesizing Unit <Regs>.
-    Related source file is "D:\Org_my\Lab7\Code\Regs.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\Regs.v".
     Found 992-bit register for signal <n0051[991:0]>.
     Found 32-bit 31-to-1 multiplexer for signal <R_addr_A[4]_register[31][31]_wide_mux_1_OUT> created at line 28.
     Found 32-bit 31-to-1 multiplexer for signal <R_addr_B[4]_register[31][31]_wide_mux_4_OUT> created at line 29.
@@ -307,33 +321,33 @@ Synthesizing Unit <Regs>.
 Unit <Regs> synthesized.
 
 Synthesizing Unit <MUX2T1_32>.
-    Related source file is "D:\Org_my\Lab7\Code\MUX2T1_32.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\MUX2T1_32.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX2T1_32> synthesized.
 
 Synthesizing Unit <Ext_32>.
-    Related source file is "D:\Org_my\Lab7\Code\Ext_32.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\Ext_32.v".
     Summary:
 	no macro.
 Unit <Ext_32> synthesized.
 
 Synthesizing Unit <MUX4T1_32>.
-    Related source file is "D:\Org_my\Lab7\Code\MUX4T1_32.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\MUX4T1_32.v".
     Found 32-bit 4-to-1 multiplexer for signal <o> created at line 30.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX4T1_32> synthesized.
 
 Synthesizing Unit <MUX4T1_5>.
-    Related source file is "D:\Org_my\Lab7\Code\MUX4T1_5.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\MUX4T1_5.v".
     Found 5-bit 4-to-1 multiplexer for signal <o> created at line 30.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <MUX4T1_5> synthesized.
 
 Synthesizing Unit <controller>.
-    Related source file is "D:\Org_my\Lab7\Code\controller.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\Code\controller.v".
         AND = 3'b000
         OR = 3'b001
         ADD = 3'b010
@@ -371,7 +385,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <ALU_Control<0>>. Latches may be 
 Unit <controller> synthesized.
 
 Synthesizing Unit <Counter>.
-    Related source file is "D:\Org_my\Lab7\NGC\Counter_3_IO.v".
+    Related source file is "D:\Org_my\Org_lab\Lab7\NGC\Counter_3_IO.v".
 WARNING:Xst:647 - Input <clk1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:653 - Signal <counter1<32>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -382,7 +396,7 @@ WARNING:Xst:653 - Signal <counter2<32>> is used but never assigned. This sourcel
     Found 1-bit register for signal <sq0>.
     Found 1-bit register for signal <M0>.
     Found 1-bit register for signal <clr0>.
-    Found 33-bit subtractor for signal <counter0[32]_GND_25_o_sub_26_OUT> created at line 77.
+    Found 33-bit subtractor for signal <counter0[32]_GND_27_o_sub_26_OUT> created at line 77.
     Found 33-bit 4-to-1 multiplexer for signal <counter_Ctrl[2]_counter0[32]_wide_mux_26_OUT> created at line 70.
     Found 1-bit comparator not equal for signal <n0017> created at line 76
     Summary:
@@ -434,8 +448,8 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 Reading core <NGC/SAnti_jitter.ngc>.
 Reading core <NGC/SEnter_2_32.ngc>.
 Reading core <NGC/MIO_BUS.ngc>.
-Reading core <NGC/Display.ngc>.
 Reading core <NGC/Multi_8CH32.ngc>.
+Reading core <NGC/Display.ngc>.
 Reading core <NGC/GPIO.ngc>.
 Reading core <NGC/PIO.ngc>.
 Reading core <ipcore_dir/RAM_B.ngc>.
@@ -444,8 +458,8 @@ Reading core <ipcore_dir/ROM_D.ngc>.
 Loading core <SAnti_jitter> for timing and area information for instance <U9>.
 Loading core <SEnter_2_32> for timing and area information for instance <M4>.
 Loading core <MIO_BUS> for timing and area information for instance <U4>.
-Loading core <Display> for timing and area information for instance <U6>.
 Loading core <Multi_8CH32> for timing and area information for instance <U5>.
+Loading core <Display> for timing and area information for instance <U6>.
 Loading core <GPIO> for timing and area information for instance <U7>.
 Loading core <PIO> for timing and area information for instance <U71>.
 Loading core <RAM_B> for timing and area information for instance <U3>.
@@ -552,7 +566,7 @@ INFO:Xst:3203 - The FF/Latch <U1/SCTRL/PCEN> in Unit <top> is the opposite to th
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 3.
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 1.
 INFO:Xst:2260 - The FF/Latch <P7SEG/sh_clk> in Unit <U6> is equivalent to the following FF/Latch : <P7SEG/sh_clk_1> 
 INFO:Xst:2260 - The FF/Latch <P7SEG/S_0> in Unit <U6> is equivalent to the following FF/Latch : <P7SEG/S_0_1> 
 INFO:Xst:2260 - The FF/Latch <P7SEG/sh_clk> in Unit <U6> is equivalent to the following FF/Latch : <P7SEG/sh_clk_1> 
@@ -623,22 +637,22 @@ Primitive and Black Box Usage:
 # RAMS                             : 1
 #      RAMB36E1                    : 1
 # Clock Buffers                    : 6
-#      BUFG                        : 5
-#      BUFGP                       : 1
-# IO Buffers                       : 57
+#      BUFG                        : 6
+# IO Buffers                       : 56
 #      IBUF                        : 21
-#      OBUF                        : 36
+#      IBUFGDS                     : 1
+#      OBUF                        : 34
 
 Device utilization summary:
 ---------------------------
 
-Selected Device : 7k160tffg676-2l 
+Selected Device : 7k325tffg676-2l 
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1537  out of  202800     0%  
- Number of Slice LUTs:                 3373  out of  101400     3%  
-    Number used as Logic:              3373  out of  101400     3%  
+ Number of Slice Registers:            1537  out of  407600     0%  
+ Number of Slice LUTs:                 3373  out of  203800     1%  
+    Number used as Logic:              3373  out of  203800     1%  
 
 Slice Logic Distribution: 
  Number of LUT Flip Flop pairs used:   3520
@@ -648,11 +662,11 @@ Slice Logic Distribution:
    Number of unique control sets:        35
 
 IO Utilization: 
- Number of IOs:                          58
- Number of bonded IOBs:                  58  out of    400    14%  
+ Number of IOs:                          57
+ Number of bonded IOBs:                  57  out of    400    14%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:                1  out of    325     0%  
+ Number of Block RAM/FIFO:                1  out of    445     0%  
     Number using Block RAM only:          1
  Number of BUFG/BUFGCTRLs:                6  out of     32    18%  
 
@@ -677,7 +691,7 @@ Clock Information:
 -------------------------------------------------------------------------------+--------------------------------+-------+
 Clock Signal                                                                   | Clock buffer(FF name)          | Load  |
 -------------------------------------------------------------------------------+--------------------------------+-------+
-clk_100mhz                                                                     | BUFGP                          | 195   |
+clk200P                                                                        | IBUFGDS+BUFG                   | 195   |
 Clk_CPU(U8/Mmux_Clk_CPU11:O)                                                   | BUFG(*)(U1/SDP/PC/Q_31)        | 1026  |
 U1/SCTRL/OPcode[5]_Fun[5]_Select_39_o(U1/SCTRL/OPcode[5]_Fun[5]_Select_39_o1:O)| NONE(*)(U1/SCTRL/ALU_Control_1)| 3     |
 U8/clkdiv_6                                                                    | BUFG                           | 35    |
@@ -714,15 +728,15 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'clk_100mhz'
+Timing constraint: Default period analysis for Clock 'clk200P'
   Clock period: 2.195ns (frequency: 455.633MHz)
   Total number of paths / destination ports: 6168 / 262
 -------------------------------------------------------------------------
 Delay:               2.195ns (Levels of Logic = 8)
   Source:            U9/sw_temp_2 (FF)
   Destination:       U9/SW_OK_0 (FF)
-  Source Clock:      clk_100mhz rising
-  Destination Clock: clk_100mhz rising
+  Source Clock:      clk200P rising
+  Destination Clock: clk200P rising
 
   Data Path: U9/sw_temp_2 to U9/SW_OK_0
                                 Gate     Net
@@ -830,40 +844,40 @@ Delay:               2.221ns (Levels of Logic = 35)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q              4   0.236   0.367  U10/counter0_0 (U10/counter0_0)
-     LUT1:I0->O            1   0.043   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<0>_rt (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<0>_rt)
-     MUXCY:S->O            1   0.238   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<0> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<1> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<2> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<3> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<4> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<5> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<5>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<6> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<6>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<7> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<7>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<8> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<8>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<9> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<9>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<10> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<10>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<11> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<11>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<12> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<12>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<13> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<13>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<14> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<14>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<15> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<15>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<16> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<16>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<17> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<17>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<18> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<18>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<19> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<19>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<20> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<20>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<21> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<21>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<22> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<22>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<23> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<23>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<24> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<24>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<25> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<25>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<26> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<26>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<27> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<27>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<28> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<28>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<29> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<29>)
-     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<30> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<30>)
-     MUXCY:CI->O           0   0.013   0.000  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<31> (U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_cy<31>)
-     XORCY:CI->O           1   0.262   0.613  U10/Msub_counter0[32]_GND_25_o_sub_26_OUT_xor<32> (U10/counter0[32]_GND_25_o_sub_26_OUT<32>)
+     LUT1:I0->O            1   0.043   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<0>_rt (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<0>_rt)
+     MUXCY:S->O            1   0.238   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<0> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<1> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<2> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<3> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<4> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<5> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<5>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<6> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<6>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<7> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<7>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<8> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<8>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<9> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<9>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<10> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<10>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<11> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<11>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<12> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<12>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<13> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<13>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<14> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<14>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<15> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<15>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<16> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<16>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<17> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<17>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<18> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<18>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<19> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<19>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<20> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<20>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<21> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<21>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<22> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<22>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<23> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<23>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<24> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<24>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<25> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<25>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<26> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<26>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<27> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<27>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<28> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<28>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<29> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<29>)
+     MUXCY:CI->O           1   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<30> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<30>)
+     MUXCY:CI->O           0   0.013   0.000  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<31> (U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_cy<31>)
+     XORCY:CI->O           1   0.262   0.613  U10/Msub_counter0[32]_GND_27_o_sub_26_OUT_xor<32> (U10/counter0[32]_GND_27_o_sub_26_OUT<32>)
      LUT6:I0->O            1   0.043   0.000  U10/Mmux_counter_Ctrl[2]_counter0[32]_wide_mux_26_OUT262 (U10/counter_Ctrl[2]_counter0[32]_wide_mux_26_OUT<32>)
      FDC:D                    -0.000          U10/counter0_32
     ----------------------------------------
@@ -988,13 +1002,13 @@ Delay:               0.700ns (Levels of Logic = 1)
                                        (40.4% logic, 59.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk200P'
   Total number of paths / destination ports: 1195 / 100
 -------------------------------------------------------------------------
 Offset:              2.089ns (Levels of Logic = 10)
   Source:            SW<2> (PAD)
   Destination:       U9/SW_OK_0 (FF)
-  Destination Clock: clk_100mhz rising
+  Destination Clock: clk200P rising
 
   Data Path: SW<2> to U9/SW_OK_0
                                 Gate     Net
@@ -1060,13 +1074,13 @@ Offset:              0.658ns (Levels of Logic = 2)
                                        (35.8% logic, 64.2% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk200P'
   Total number of paths / destination ports: 4848 / 15
 -------------------------------------------------------------------------
 Offset:              5.446ns (Levels of Logic = 15)
   Source:            U9/SW_OK_5 (FF)
   Destination:       SEGMENT<6> (PAD)
-  Source Clock:      clk_100mhz rising
+  Source Clock:      clk200P rising
 
   Data Path: U9/SW_OK_5 to SEGMENT<6>
                                 Gate     Net
@@ -1325,16 +1339,16 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'U7/ledclk'
 -------------------------------------------------------------------------
 Offset:              0.584ns (Levels of Logic = 2)
   Source:            U7/P7SEG/Q_16 (FF)
-  Destination:       led_sout (PAD)
+  Destination:       led_do (PAD)
   Source Clock:      U7/ledclk falling
 
-  Data Path: U7/P7SEG/Q_16 to led_sout
+  Data Path: U7/P7SEG/Q_16 to led_do
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDE_1:C->Q            2   0.240   0.344  P7SEG/Q_16 (ledsout)
      end scope: 'U7:ledsout'
-     OBUF:I->O                 0.000          led_sout_OBUF (led_sout)
+     OBUF:I->O                 0.000          led_do_OBUF (led_do)
     ----------------------------------------
     Total                      0.584ns (0.240ns logic, 0.344ns route)
                                        (41.1% logic, 58.9% route)
@@ -1345,16 +1359,16 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'U6/P7SEG/sh_clk'
 -------------------------------------------------------------------------
 Offset:              0.584ns (Levels of Logic = 2)
   Source:            U6/P7SEG/Q_0 (FF)
-  Destination:       seg_sout (PAD)
+  Destination:       seg_do (PAD)
   Source Clock:      U6/P7SEG/sh_clk falling
 
-  Data Path: U6/P7SEG/Q_0 to seg_sout
+  Data Path: U6/P7SEG/Q_0 to seg_do
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDE_1:C->Q            2   0.240   0.344  P7SEG/Q_0 (segsout)
      end scope: 'U6:segsout'
-     OBUF:I->O                 0.000          seg_sout_OBUF (seg_sout)
+     OBUF:I->O                 0.000          seg_do_OBUF (seg_do)
     ----------------------------------------
     Total                      0.584ns (0.240ns logic, 0.344ns route)
                                        (41.1% logic, 58.9% route)
@@ -1373,7 +1387,7 @@ Clk_CPU                              |    9.580|    2.627|    3.461|         |
 IO_clk                               |         |    1.614|         |         |
 U1/SCTRL/OPcode[5]_Fun[5]_Select_39_o|         |    6.038|         |         |
 U8/clkdiv_6                          |    1.745|         |         |         |
-clk_100mhz                           |    1.749|         |         |         |
+clk200P                              |    1.749|         |         |         |
 -------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock IO_clk
@@ -1386,7 +1400,7 @@ IO_clk                               |    0.932|    0.908|         |         |
 U1/SCTRL/OPcode[5]_Fun[5]_Select_39_o|         |    4.918|    5.348|         |
 U7/ledclk                            |         |    2.352|         |         |
 U8/clkdiv_6                          |    0.806|         |         |         |
-clk_100mhz                           |    1.376|         |    1.541|         |
+clk200P                              |    1.376|         |    1.541|         |
 -------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock M4/push
@@ -1396,7 +1410,7 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 M4/push        |    1.069|         |         |         |
 U9/clk1        |    0.818|         |         |         |
-clk_100mhz     |    1.340|         |         |         |
+clk200P        |    1.340|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U1/SCTRL/OPcode[5]_Fun[5]_Select_39_o
@@ -1417,7 +1431,7 @@ IO_clk                               |         |         |    4.944|         |
 U1/SCTRL/OPcode[5]_Fun[5]_Select_39_o|         |         |    9.368|         |
 U6/P7SEG/sh_clk                      |         |         |    0.700|         |
 U8/clkdiv_6                          |         |         |    5.069|         |
-clk_100mhz                           |         |         |    5.073|         |
+clk200P                              |         |         |    5.073|         |
 -------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U7/ledclk
@@ -1436,7 +1450,7 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 IO_clk         |    2.084|         |         |         |
 U8/clkdiv_6    |    2.221|         |         |         |
-clk_100mhz     |    1.619|         |         |         |
+clk200P        |    1.619|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U9/clk1
@@ -1445,10 +1459,10 @@ Clock to Setup on destination clock U9/clk1
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 U9/clk1        |    2.152|         |         |         |
-clk_100mhz     |    1.292|         |         |         |
+clk200P        |    1.292|         |         |         |
 ---------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock clk_100mhz
+Clock to Setup on destination clock clk200P
 -------------------------------------+---------+---------+---------+---------+
                                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
@@ -1458,20 +1472,20 @@ M4/push                              |    1.928|         |         |         |
 U1/SCTRL/OPcode[5]_Fun[5]_Select_39_o|         |         |    5.132|         |
 U6/P7SEG/sh_clk                      |         |    2.068|         |         |
 U9/clk1                              |    1.100|         |         |         |
-clk_100mhz                           |    2.195|         |         |         |
+clk200P                              |    2.195|         |         |         |
 -------------------------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 23.00 secs
-Total CPU time to Xst completion: 23.19 secs
+Total CPU time to Xst completion: 22.58 secs
  
 --> 
 
-Total memory usage is 4648084 kilobytes
+Total memory usage is 4648072 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   74 (   0 filtered)
-Number of infos    :   17 (   0 filtered)
+Number of infos    :   19 (   0 filtered)
 
